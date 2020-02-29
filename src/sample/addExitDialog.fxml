@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.AddExitDialog" style="-fx-background-color: #000000" stylesheets="@menuStyles.css">
+    <top>
+        <Label alignment="CENTER" text="Exit from the game you want?"/>
+    </top>
+
+    <center>
+        <Label alignment="CENTER">
+            <graphic>
+                <ImageView>
+                    <Image url="@Resources/yoda.png"/>
+                </ImageView>
+            </graphic>
+        </Label>
+    </center>
+</BorderPane>

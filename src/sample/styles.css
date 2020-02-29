@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: 'Star Jedi';
+    src: url(Resources/Starjedi.ttf);
+}
+@font-face {
+    font-family: 'Star Jedi Hollow';
+    src: url(Resources/Starjedi.ttf);
+}
+
+.button {
+    -fx-opacity: 0.8;
+    -fx-font-family: 'Star Jedi';
+    -fx-font-size: 24;
+    -fx-background-color: #000000;
+    -fx-text-fill: #FFE81F;
+    -fx-background-radius: 0;
+    -fx-border-color: #FFE81F;
+    -fx-border-width: 5;
+}
+.label {
+    -fx-font : 50px "Star Jedi";
+    -fx-text-fill: #FFE81F;
+    -fx-background-color: #000000;
+}
